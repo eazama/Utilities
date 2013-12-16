@@ -17,7 +17,6 @@ public class TextFileManager {
         list.addAll(readFile(fileName));
         
         writeFile(fileName, list.toArray());
-        
     }
     
     public static Collection<String> readFile(String fileName) {
